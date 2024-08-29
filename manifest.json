@@ -1,0 +1,18 @@
+{
+    "manifest_version": 3,
+    "name": "DivisaHoy",
+    "version": "1.0",
+    "description": "Aplicación para la cotización de divisas",
+    "icons": {
+        "128": "sources/icon128.png"
+    },
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": "sources/icon.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "https://*/"
+    ]
+}
